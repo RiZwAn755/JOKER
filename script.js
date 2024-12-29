@@ -12,7 +12,8 @@ content.addEventListener('click', function ()
     body.style.backgroundRepeat = "no-repeat";
     body.style.backgroundPosition = "center";
     body.style.overflow = "hidden";
-    content.style.backgroundColor = "aqua";
+    content.style.backgroundColor = "brown";
+    content.style.fontSize = "30px";
     btn.style.borderRadius = '12px';
     content.style.borderRadius = "100px";
     content.innerHTML = 'Functionality Updated!';
