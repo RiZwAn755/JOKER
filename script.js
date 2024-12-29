@@ -16,7 +16,7 @@ content.addEventListener('click', function ()
     content.style.fontSize = "30px";
     btn.style.borderRadius = '12px';
     content.style.borderRadius = "100px";
-    content.innerHTML = 'Functionality Updated!';
+    content.innerHTML = 'Functionality Updated!'
     btn.style.cursor = "grabbing";
 });
 
@@ -24,6 +24,7 @@ content.addEventListener('click', function ()
 const URL = "https://v2.jokeapi.dev/joke/Any";
 
 async function fetchJoke() {
+
     try {
         const response = await fetch(URL);
         if (!response.ok) {
